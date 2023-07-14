@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <title>Simple To Do List</title>
+    <link rel="stylesheet" href="gym.task22.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <img src="C:\Users\Lenovo\Desktop\bars-1" alt="icon">
+            <input type="text" placeholder="Add a new task">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="complated">Complated</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box">
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Renew gym membership</p>
+                </label>
+                <div class="Setting">
+                    <i class="uil uil-ellipsis-h"></i>
+                    <ul class="task-menu">
+                        <li><i class="uil uil-pen"></i>Edit</li>
+                        <!-- <li>< i class="uil uil-trash"></i>delete</li> -->
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="2">
+                    <input type="checkbox" id="2">
+                    <p>Workout five days a week </p>
+                </label>
+                <div class="Setting">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="3">
+                    <input type="checkbox" id="3">
+                    <p>No Alcohol</p>
+                </label>
+                <div class="Setting">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="4">
+                    <input type="checkbox" id="4">
+                    <p>Eat fruits veggies,and lean meat</p>
+                </label>
+                <div class="Setting">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="5">
+                    <input type="checkbox" id="5">
+                    <p>Eat dinner before 7.30</p>
+                </label>
+                <div class="Setting">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="6">
+                    <input type="checkbox" id="6">
+                    <p>To bed before 11</p>
+                </label>
+                <div class="Setting">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+
+
+
+
+
+        </ul>
+
+
+</body>
+
+</html>
